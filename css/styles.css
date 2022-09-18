@@ -11,6 +11,7 @@ body {
   --accent-color: #2196f3;
   --main-color: #212121;
   --second-color: #757575;
+  --white-color: #ffffff;
 }
 
 .web {
@@ -108,7 +109,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .hero-button {
@@ -121,7 +122,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--white-color);
   background: #2196f3;
   cursor: pointer;
 }
@@ -185,7 +186,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .footer-map:hover,
@@ -198,7 +199,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .footer-mail:hover,
@@ -235,7 +236,7 @@ body {
 
 .main-button:hover,
 .main-button:focus {
-  color: #ffffff;
+  color: var(--white-color);
   background: #2196f3;
 }
 
