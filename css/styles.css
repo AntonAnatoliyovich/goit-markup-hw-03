@@ -84,7 +84,7 @@ address {
 
 .header {
   padding-top: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 25px;
 }
 
 .header-logo {
@@ -173,6 +173,10 @@ address {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
+  max-width: 696px;
+  padding-top: 200px;
+  padding-bottom: 30px;
+  margin: 0 auto;
 }
 
 .hero-button {
@@ -188,12 +192,16 @@ address {
   color: var(--white-color);
   background: #2196f3;
   cursor: pointer;
+  max-width: 216px;
+  margin: 0 auto;
 }
 
 .hero-second {
 }
 
 .hero-list {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .hero-item {
@@ -219,9 +227,12 @@ address {
 }
 
 .hero-title-third {
+  margin: 0 auto;
 }
 
 .hero-list-third {
+  padding-top: 50px;
+  padding-bottom: 94px;
 }
 
 .hero-item-third {
@@ -231,9 +242,14 @@ address {
 }
 
 .hero-title-fourth {
+  padding-top: 94px;
+  padding-bottom: 50px;
+  margin: 0 auto;
 }
 
 .hero-list-fourth {
+  padding-top: 50px;
+  padding-bottom: 94px;
 }
 
 .hero-item-fourth {
@@ -262,9 +278,11 @@ address {
 
 .footer {
   background-color: #757575;
+  padding-top: 60px;
 }
 
 .footer-logo {
+  padding-bottom: 20px;
 }
 
 .footer-web {
@@ -278,6 +296,12 @@ address {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--white-color);
+}
+
+.address {
+  padding-top: 20px;
+  padding-bottom: 60px;
+  max-width: 231px;
 }
 
 .footer-map:hover,
