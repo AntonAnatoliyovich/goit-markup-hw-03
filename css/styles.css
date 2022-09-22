@@ -393,6 +393,9 @@ address {
 .main-list {
   margin-top: 94px;
   margin-bottom: 34px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
 }
 
 .main-item {
@@ -418,10 +421,11 @@ address {
   padding: 6px 25px;
   min-width: 73px;
   margin: 0 auto;
-  
+  border-radius: 4px;
 }
 
 .main-list-second {
+  display: flex;
 }
 
 .main-item-second {
