@@ -82,17 +82,27 @@ address {
 
 /* -------header------- */
 
-.header {
+.header-container {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .container-style {
   display: flex;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
 }
 
 .header-logo {
   padding-top: 24px;
   padding-bottom: 25px;
+  padding-right: 93px;
 }
 
 .header-web {
@@ -128,6 +138,8 @@ address {
 }
 
 .header-list-second {
+  display: flex;
+  gap: 50px;
 }
 
 .header-item-second {
@@ -167,7 +179,7 @@ address {
 }
 
 .hero-section {
-  background: #2f303a;
+  background-color: #2f303a;
   padding: 200px 0px;
   text-align: center;
 }
@@ -181,8 +193,8 @@ address {
   text-transform: uppercase;
   color: var(--white-color);
   max-width: 696px;
-  margin-bottom: 30px;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .hero-button {
@@ -207,6 +219,8 @@ address {
 .hero-list {
   padding-top: 94px;
   padding-bottom: 94px;
+  display: flex;
+  gap: 30px;
 }
 
 .hero-item {
@@ -238,6 +252,8 @@ address {
 .hero-list-third {
   padding-top: 50px;
   padding-bottom: 94px;
+  display: flex;
+  gap: 30px;
 }
 
 .hero-item-third {
@@ -253,8 +269,9 @@ address {
 }
 
 .hero-list-fourth {
-  padding-top: 50px;
   padding-bottom: 94px;
+  display: flex;
+  gap: 30px;
 }
 
 .hero-item-fourth {
@@ -267,6 +284,9 @@ address {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
+  margin-top: 30px;
+  margin-bottom: 10px;
+
 }
 
 .hero-text-speciality {
@@ -285,9 +305,12 @@ address {
   background-color: #757575;
 }
 
-.footer-logo {
+.footer-container {
   padding-top: 60px;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
+}
+
+.footer-logo {
 }
 
 .footer-web {
@@ -305,7 +328,6 @@ address {
 
 .address {
   padding-top: 20px;
-  padding-bottom: 60px;
   max-width: 231px;
 }
 
