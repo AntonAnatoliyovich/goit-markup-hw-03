@@ -14,17 +14,24 @@ body {
   --white-color: #ffffff;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
-ul, ol {
+ul,
+ol {
   margin: 0;
   padding-left: 0;
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -286,7 +293,6 @@ address {
   color: var(--main-color);
   margin-top: 30px;
   margin-bottom: 10px;
-
 }
 
 .hero-text-speciality {
@@ -426,6 +432,8 @@ address {
 
 .main-list-second {
   display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .main-item-second {
@@ -446,7 +454,6 @@ address {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--second-color);
-  margin-top: 4px;
   margin-bottom: 20px;
 }
 
