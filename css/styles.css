@@ -71,7 +71,7 @@ address {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -83,6 +83,11 @@ address {
 /* -------header------- */
 
 .header {
+  display: flex;
+}
+
+.container-style {
+  display: flex;
 }
 
 .header-logo {
@@ -163,6 +168,8 @@ address {
 
 .hero-section {
   background: #2f303a;
+  padding: 200px 0px;
+  text-align: center;
 }
 
 .hero-title {
@@ -174,8 +181,7 @@ address {
   text-transform: uppercase;
   color: var(--white-color);
   max-width: 696px;
-  padding-top: 200px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   margin: 0 auto;
 }
 
@@ -185,15 +191,14 @@ address {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--white-color);
   background: #2196f3;
   cursor: pointer;
   max-width: 216px;
-  margin: 0 auto;
+  padding: 10px 32px;
+  border: none;
+  border-radius: 4px;
 }
 
 .hero-second {
@@ -388,7 +393,7 @@ address {
   color: #212121;
   background: #f5f4fa;
   cursor: pointer;
-  padding: 6 25 6 25;
+  padding: 6px 25px;
   min-width: 73px;
   margin: 0 auto;
   
