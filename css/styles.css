@@ -263,7 +263,7 @@ address {
   padding-top: 50px;
   padding-bottom: 94px;
   display: flex;
-  /* gap: 30px; */
+  gap: 30px;
 }
 
 .hero-item-third {
@@ -286,6 +286,7 @@ address {
 }
 
 .hero-item-fourth {
+  width: calc((100% - 90px) / 4);
 }
 
 .hero-title-name {
@@ -443,6 +444,7 @@ address {
 }
 
 .main-item-second {
+  width: calc((100% - 60px) / 3);
 }
 
 .main-title {
