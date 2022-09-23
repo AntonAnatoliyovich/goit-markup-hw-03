@@ -85,6 +85,11 @@ address {
   outline: 2px solid red;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* -------body------- */
 
 /* -------header------- */
@@ -227,8 +232,6 @@ address {
 }
 
 .hero-list {
-  padding-top: 94px;
-  padding-bottom: 94px;
   display: flex;
   gap: 30px;
 }
@@ -274,13 +277,11 @@ address {
 }
 
 .hero-title-fourth {
-  padding-top: 94px;
   padding-bottom: 50px;
   margin: 0 auto;
 }
 
 .hero-list-fourth {
-  padding-bottom: 94px;
   display: flex;
   gap: 30px;
 }
@@ -398,8 +399,6 @@ address {
 }
 
 .main-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .main-list {
