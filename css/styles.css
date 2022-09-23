@@ -339,7 +339,7 @@ address {
 }
 
 .address {
-  padding-top: 20px;
+  margin-top: 20px;
   max-width: 231px;
 }
 
@@ -403,7 +403,6 @@ address {
 }
 
 .main-list {
-  margin-top: 94px;
   margin-bottom: 34px;
   display: flex;
   gap: 30px;
