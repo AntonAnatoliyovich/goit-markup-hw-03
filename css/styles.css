@@ -199,6 +199,8 @@ address {
 
 .hero-section {
   background-color: #2f303a;
+  margin-left: -100px;
+  margin-right: -100px;
 
   padding: 200px 0px;
 
