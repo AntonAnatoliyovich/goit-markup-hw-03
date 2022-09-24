@@ -117,7 +117,7 @@ address {
 .header-logo {
   padding-top: 24px;
   padding-bottom: 25px;
-  padding-right: 93px;
+  margin-right: 93px;
 }
 
 .header-web {
