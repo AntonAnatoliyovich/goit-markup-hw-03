@@ -393,7 +393,7 @@ address {
 .footer-mail {
   margin-top: 9px;
   margin-bottom: 9px;
-  
+
   color: rgba(255, 255, 255, 0.6);
 
   font-style: normal;
@@ -429,9 +429,9 @@ address {
 }
 
 .main-list {
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   display: flex;
-  gap: 30px;
+  gap: 8px;
   justify-content: center;
 }
 
