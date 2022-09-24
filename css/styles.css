@@ -199,8 +199,6 @@ address {
 
 .hero-section {
   background-color: #2f303a;
-  margin-left: -100px;
-  margin-right: -100px;
 
   padding: 200px 0px;
 
@@ -277,7 +275,7 @@ address {
 }
 
 .hero-list-third {
-  padding-top: 50px;
+  margin-top: 50px;
   padding-bottom: 94px;
   display: flex;
   gap: 30px;
@@ -291,8 +289,8 @@ address {
 }
 
 .hero-title-fourth {
-  padding-bottom: 50px;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .hero-list-fourth {
@@ -302,6 +300,11 @@ address {
 
 .hero-item-fourth {
   width: calc((100% - 90px) / 4);
+}
+
+.hero-command {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .hero-title-name {
@@ -331,12 +334,13 @@ address {
 /* -------footer------- */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background-color: #757575;
 }
 
 .footer-container {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -387,6 +391,9 @@ address {
 }
 
 .footer-mail {
+  margin-top: 9px;
+  margin-bottom: 9px;
+  
   color: rgba(255, 255, 255, 0.6);
 
   font-style: normal;
