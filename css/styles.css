@@ -211,7 +211,7 @@ address {
   max-width: 696px;
   margin: 0 auto;
   margin-bottom: 30px;
-  
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -448,7 +448,7 @@ address {
   color: #212121;
   background: #f5f4fa;
   cursor: pointer;
-  
+
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -476,7 +476,6 @@ address {
 .main-works {
   padding: 20px 24px;
   border: 1px solid #000;
-
 }
 
 .main-title {
