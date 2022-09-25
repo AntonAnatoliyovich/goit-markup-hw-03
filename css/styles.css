@@ -475,11 +475,15 @@ address {
 
 .main-item-second {
   width: calc((100% - 60px) / 3);
+
+  display: block;
 }
 
 .main-works {
   padding: 20px 24px;
-  border: 1px solid #000;
+  border-right: 1px solid var(--second-color);
+  border-bottom: 1px solid var(--second-color);
+  border-left: 1px solid var(--second-color);
 }
 
 .main-title {
